@@ -6,3 +6,71 @@
 a {
 text-decoration: none;
 }
+/*****button-color*****/
+:root{
+    --primary-brand: #4D5AE5;
+}
+:root{
+    --Dark-color: #2E2F42;
+}
+:root{
+    --secondary-brand: #404BBF;
+}
+:root{
+    --Success-color: #31D0AA;
+}
+:root{
+    --Text-color: #434455;
+}
+:root{
+    --Subtle-Text: #8E8F99;
+}
+:root{
+    --Accent-color: #E7E9FC;
+}
+:root{
+    --Lite: #F4F4FD;
+}
+:root{
+    --White: #FFFFFF;
+}
+
+
+/**********************************LOGO*************************/
+.blue{
+color: var(--primary-brand, #4D5AE5);
+}
+.grey{ 
+color:var(--Dark-color, #2E2F42);}
+
+/******************************BUTTON HERO**********************/
+.button-hero,
+.button-primary {
+background-color: var(--primary-brand, #4D5AE5);
+color: var(--White, #FFFFFF);
+border: none;
+}
+
+.button-hero:hover, 
+.button-hero:focus,
+.button-primary:hover, 
+.button-primary:focus{
+background-color: var(--primary-brand, #4D5AE5);
+color: var(--White, #FFFFFF);
+}
+
+.button-hero:active,
+.button-primary:active{
+background-color: var(--secondary-brand, #404BBF);
+color: var(--White, #FFFFFF);
+}
+/******************************PRIMARY BUTTON********************/
+.menu-link{
+    background-color: var(--Lite, #F4F4FD);
+    color: var(--primary-brand, #4D5AE5);
+    border: var(--Accent-color, #E7E9FC) ;
+
+}
+
+
+
