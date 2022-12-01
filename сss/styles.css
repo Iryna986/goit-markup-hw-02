@@ -58,7 +58,7 @@ a {
 .grey-color {
   color: var(--Dark-color-NAVY-BLUE, #2e2f42);
 }
-/****************NAVIGATION***************/
+/****************NAVIGATION HEADER**************/
 .list-nav{
   font-weight: 700;
   font-size: 16px;
@@ -179,22 +179,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: var(--Accent-color-CORN-FLOVER);
-
 }
 
-
-
-
-
-
-
-
-
-
-
-/******************************OUR WORDS***PORTFOLIO*****************/
-
-
+/*************************PORTFOLIO*****************/
 /*************************PORTFOLIO*****************/
 .menu-link {
   font-size: 16px;
@@ -213,4 +200,17 @@ color: var(--Accent-color-CORN-FLOVER);
 .menu-link:active {
   background-color: var(--secondary-brand-ACTIVE, #404bbf);
   color: var(--White, #ffffff);
+}
+/*****************************OUR WORDS*****************/
+.word-heading{
+font-size: 20px;
+line-height: 1.2;
+
+}
+
+.word-img{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--Text-color-SLATE);
 }
