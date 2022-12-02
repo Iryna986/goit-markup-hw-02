@@ -81,6 +81,14 @@ a {
   line-height: 1.5;
   color: var(--Text-color-SLATE, #434455);
 }
+.mailto:hover,
+.phone:hover {
+  color: var(--primary-brand-IRIS);
+}
+.mailto:active,
+.phone:active{
+color: var(--primary-brand-IRIS)}
+
 /******************************HERO******************************/
 .hero {
 
