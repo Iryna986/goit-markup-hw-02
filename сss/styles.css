@@ -62,7 +62,8 @@ a {
 
 .list-nav:hover,
 .list-nav:focus {
-color: var(--Text-color-SLATE);
+color: var(--White);
+background-color: var(--primary-brand-IRIS);
 }
 .list-nav:active {
   color: var(--primary-brand-IRIS);
@@ -85,7 +86,8 @@ color: var(--primary-brand-IRIS);
 
 .mailto:active,
 .phone:active {
-  color: var(--primary-brand-IRIS);
+  color: var(--White);
+  background-color: var(--primary-brand-IRIS);
 }
 
 /******************************HERO******************************/
@@ -192,7 +194,7 @@ color: var(--primary-brand-IRIS);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--Lite);
+  background-color: var(--Light-color-Cloud);
   color: var(--primary-brand-IRIS);
   border: 1px solid var(--Accent-color-CORN-FLOVER);
   border-radius: 4px;
@@ -200,12 +202,13 @@ color: var(--primary-brand-IRIS);
 
 .menu-link:hover,
 .menu-link:focus {
-  background-color: var(--Light-color-Cloud);
-  color: var(--primary-brand-IRIS);
-}
-.menu-link:active {
-  background-color: var(--secondary-brand-ACTIVE);
+  background-color: var(--primary-brand-IRIS);
   color: var(--White);
+}
+
+.menu-link:active{
+color: var(--White);
+background-color: var(--primary-brand-IRIS);
 }
 /*****************************OUR WORDS*****************/
 .word-heading {
