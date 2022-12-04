@@ -41,7 +41,7 @@ a {
 /***LOGO***/
 .header-logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ a {
 }
 /****************NAVIGATION HEADER**************/
 .list-nav {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 16px;
   line-height: 1.5;
   color: var(--Dark-color-NAVY-BLUE);
@@ -62,8 +62,7 @@ a {
 
 .list-nav:hover,
 .list-nav:focus {
-color: var(--White);
-background-color: var(--primary-brand-IRIS);
+color: var(--Text-color-SLATE);
 }
 .list-nav:active {
   color: var(--primary-brand-IRIS);
@@ -99,6 +98,7 @@ color: var(--primary-brand-IRIS);
   font-size: 56px;
   line-height: 1.07;
   color: var(--White);
+  max-width: 492px;
 }
 
 /*************BUTTON HERO** PORFOLIO************/
@@ -114,28 +114,15 @@ color: var(--primary-brand-IRIS);
   color: var(--White);
   border: none;
 }
-.button-primary {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: var(--primary-brand-IRIS);
-  color: var(--White);
-  border: none;
-}
-
 .button-hero:hover,
-.button-hero:focus,
-.button-primary:hover,
-.button-primary:focus {
-  background-color: var(--primary-brand-IRIS);
-  color: var(--White);
+.button-hero:focus {
+  background-color: var(--secondary-brand-ACTIVE);
+  
+}
+.button-hero:active {
+  background-color: var(--primary-brand-IRIS)
 }
 
-.button-hero:active,
-.button-primary:active {
-  background-color: var(--secondary-brand-ACTIVE);
-  color: var(--White);
-}
 
 /******************************FEATURES*************************/
 .features-title {
@@ -171,25 +158,57 @@ color: var(--primary-brand-IRIS);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--Text-color-SLATE);
 }
+.list-foto{
+background-color: var(--White);
+}
+
 /*****************************************FOOTER***********************/
 .footer {
-  text-transform: uppercase;
   background-color: var(--Dark-color-NAVY-BLUE);
 }
 .cloud-color {
   color: var(--Accent-color-CORN-FLOVER);
 }
+.footer-logo{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+text-transform: uppercase;
 
+
+}
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   color: var(--Accent-color-CORN-FLOVER);
+  max-width: 264px;
 }
 
 /*************************PORTFOLIO*****************/
 /*************************PORTFOLIO*****************/
+.button-primary {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--primary-brand-IRIS);
+  color: var(--White);
+  border: none;
+}
+
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--primary-brand-IRIS);
+}
+
+
+.button-primary:active {
+  background-color: var(--secondary-brand-ACTIVE);
+}
+
+
 .menu-link {
   font-family: inherit;
   font-size: 16px;
